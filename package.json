@@ -1,0 +1,19 @@
+{
+  "name": "js-canvas-test",
+  "version": "0.0.1",
+  "description": "Test",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "MSR",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

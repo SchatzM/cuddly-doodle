@@ -1,0 +1,48 @@
+html, body {
+    background-color: rgb(16, 17, 21);
+    overscroll-behavior: contain;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    bottom: 65px;
+    left: 0px;
+    right: 0;
+}
+canvas {
+    /* border: 2px dotted #fff; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../assts/canvas.jpg);
+    overflow: hidden;
+    border-radius: 10px;
+    mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
+main {
+    position: fixed;
+    bottom: 0;
+    background: black;
+    width: 100%;
+    min-height: 47px;
+    padding: 38px;
+}
+
+div#clearButton {
+    background: azure;
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 100%;
+}
+
+#roomJoinName input[type="text"] {
+    width: 100%;
+    z-index: 100;
+    position: relative;
+}
+canvas::selection {
+    color: none;
+    background: none;
+}
