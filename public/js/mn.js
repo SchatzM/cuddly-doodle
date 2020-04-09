@@ -37,7 +37,7 @@ function setup() {
         console = {};
         console.info = function(){};
         console.log = function(){};
-        console.warn = function(){};
+        console.warn = function(){}
     }
     socket = io.connect('10.0.10.69:1234')
     .on('connect', () => {
